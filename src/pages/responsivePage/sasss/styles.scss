@@ -1,0 +1,17 @@
+$main-color: rgb(122, 44, 44);
+
+.sasss {
+  h1 {
+    color: $main-color;
+  }
+}
+
+.Button {
+  // 색상/테두리 스타일 적용
+  &.small {
+    font-size: 16px;
+  }
+  &.large {
+    font-size: 24px;
+  }
+}
